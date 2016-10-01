@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:paddingTop="10dp"
+    android:paddingBottom="10dp"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/bs_marker_name"
+
+        android:text="Marker Name"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/bs_marker_lat"
+
+        android:text="Marker Latitutde"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/bs_marker_long"
+
+        android:text="Marker Longitude"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/bs_marker_radius"
+
+        android:text="Marker Longitude"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:paddingBottom="5dp"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+
+        android:gravity="right"
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/bs_btn_remove"
+            android:text="Remove"
+
+            style="@style/Widget.AppCompat.Button.Colored"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <Button
+            android:id="@+id/bs_btn_notify"
+            android:text="Notify in 10 sec"
+
+            style="@style/Widget.AppCompat.Button.Colored"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">GoogleMapsTesting</string>
+    <string name="title_activity_maps">Map</string>
+
+    <string name="ipsum">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer mauris augue, ultrices aliquet sapien vitae, mattis iaculis augue. Integer semper aliquet eleifend. Duis sollicitudin est non ex hendrerit eleifend. Nullam a consectetur ante. Nunc semper orci nec turpis pulvinar efficitur. Mauris efficitur fringilla sem, a fermentum lacus lacinia id. Aliquam erat volutpat. Sed eget libero sit amet enim condimentum tempus quis ut nunc. Proin cursus, ante sed ornare pulvinar, neque nisl luctus augue, non iaculis magna est lobortis erat. Aliquam neque metus, auctor rhoncus nisi id, feugiat tincidunt leo. Fusce varius ante mauris, et consequat nibh faucibus non. Morbi vel nibh non tellus dignissim porttitor. </string>
+</resources>
